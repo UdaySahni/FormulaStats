@@ -1,0 +1,43 @@
+{
+  "name": "my-new-project",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^6.3.1",
+    "axios": "^0.18.0",
+    "expo": "29.0.0",
+    "lodash": "^4.17.10",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
+    "react-native-chart-kit": "^1.1.5",
+    "react-native-elements": "^1.0.0-beta5",
+    "react-native-flags": "^1.0.0",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-pathjs-charts": "0.0.34",
+    "react-native-svg": "^6.5.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.9.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "victory-native": "^30.1.0"
+  },
+  "devDependencies": {
+    "jest-expo": "29.0.0"
+  }
+}
